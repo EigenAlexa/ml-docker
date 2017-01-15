@@ -31,7 +31,7 @@ RUN apt-get update && \
     libhdf5-serial-dev \
     protobuf-compiler
 
-COPY requirements.txt /root
+COPY requirements.txt /root/
 RUN pip install keras nose Cython
 RUN pip install -r requirements.txt
 RUN rm requirements.txt
