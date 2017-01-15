@@ -77,7 +77,7 @@ RUN echo "/usr/local/nvidia/lib" >> /etc/ld.so.conf.d/nvidia.conf && \
     echo "/usr/local/nvidia/lib64" >> /etc/ld.so.conf.d/nvidia.conf
 
 COPY requirements.txt /root
-RUN pip install -r keras nose Cython
+RUN pip install keras nose Cython
 RUN pip install -r requirements.txt
 RUN rm requirements.txt
 

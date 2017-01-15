@@ -32,7 +32,7 @@ RUN apt-get update && \
     protobuf-compiler
 
 COPY requirements.txt /root
-RUN pip install -r keras nose Cython
+RUN pip install keras nose Cython
 RUN pip install -r requirements.txt
 RUN rm requirements.txt
 
