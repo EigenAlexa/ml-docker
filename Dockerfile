@@ -1,1 +1,1 @@
-Dockerfile.cpu
+Dockerfile.gpu
