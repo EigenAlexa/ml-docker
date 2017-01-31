@@ -1,5 +1,5 @@
 # Set the base image to Ubuntu
-FROM tensorflow/tensorflow
+FROM tensorflow/tensorflow:latest-py3
 
 # File Author / Maintainer
 MAINTAINER James Bartlett
